@@ -54,14 +54,6 @@ width: 100%;
     display: block;
 }
 
-.pic1 {
-  width: 1300px;
-  height: 992px;
-  background-image:url('http://previews.123rf.com/images/luanateutzi/luanateutzi1406/luanateutzi140600077/29225771-Empty-rack-of-clothes-and-hangers-after-a-big-sale-Sale-sign-for-summer-clothes-on-a-clearance-rack--Stock-Photo.jpg');
-  margin: 0;
-  padding: 0;
-}
-
 /*Navbar-Decoration*/
 a {
   font-family: 'Droid Serif', serif;
@@ -76,4 +68,55 @@ a:hover {
 
 a:visited {
   text-decoration: none;
+}
+
+/*Pictures Section*/
+h1 {
+  text-transform: uppercase;
+  font-size: 45px;
+  font-family: Halant, serif;
+  color: #242424;
+  line-height: 1.2;
+}
+
+h2 {
+  display:inline-block;
+  font-weight: 400;
+  font-size: 30px;
+  padding-bottom: 5px;
+  line-height: 1.2;
+  color: black;
+  font-family: Halant, serif;
+}
+
+.imgs {
+  max-width: 100%;
+  float:left;
+}
+.pic1 {
+  width: 1350px;
+  height: 600px;
+  background-image:url('http://previews.123rf.com/images/luanateutzi/luanateutzi1406/luanateutzi140600077/29225771-Empty-rack-of-clothes-and-hangers-after-a-big-sale-Sale-sign-for-summer-clothes-on-a-clearance-rack--Stock-Photo.jpg');
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+   display: block;
+   width: 593px;
+   font-size: 1px;
+   clear: both;
+   border: none;
+   border-top: 1px solid #aaaaaa;
+   border-bottom: 1px solid #ffffff;
+}
+
+.companyDescription {
+  float:left;
+  width:593px;
+  word-wrap: break-word;
+  font-weight: normal;
+  font-family: DroidSerif, serif;
+  color: #686767;
+  font-size: 20px;
 }
