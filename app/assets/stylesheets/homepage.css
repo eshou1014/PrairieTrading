@@ -116,7 +116,37 @@ hr {
   width:593px;
   word-wrap: break-word;
   font-weight: normal;
-  font-family: DroidSerif, serif;
+  font-family: 'Droid Serif', serif;
   color: #686767;
   font-size: 20px;
+}
+
+/*Brand-Info*/
+
+.brands-info {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+.brand-title {
+  text-align: center;
+  font-size: 200%;
+  font-family: 'Halant','serif';
+  line-height: 1px;
+}
+
+.labels-worked {
+  font-size: 120%;
+  text-align: center;
+  color: #686767;
+  font-family: 'Halant', 'serif';
+}
+
+.brand-list li {
+  float:left;
+  margin-left: 30px;
+  width: 30%;
+  list-style-type: disc;
+  color: #686767;
 }
