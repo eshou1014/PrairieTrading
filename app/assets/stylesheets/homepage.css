@@ -145,8 +145,9 @@ hr {
 
 .brand-list li {
   float:left;
-  margin-left: 30px;
-  width: 30%;
+  font-size: 150%;
+  margin-left: 130px;
+  width: 40%;
   list-style-type: disc;
   color: #686767;
 }
