@@ -151,3 +151,53 @@ hr {
   list-style-type: disc;
   color: #686767;
 }
+
+.footer-container {
+  background-color: #5f5f5f;
+  margin-top: 500px;
+  height: 300px;
+}
+
+.footer-head {
+  text-align: center;
+  font-size: 180%;
+  font-family: 'Halant', 'serif';
+  padding-top: 40px;
+  color: white;
+}
+
+.location-icon {
+  margin-left: 200px;
+}
+
+.location-info {
+  display: inline;
+  float: left;
+  margin-left: 150px;
+  color: white;
+  font-family: 'Droid Serif', 'serif';
+}
+
+.telephone-icon {
+  margin-left: 400px;
+
+}
+
+.telephone-info {
+  position:relative;
+  float: left;
+  left: 22%;
+  color: white;
+  text-decoration: underline;
+  font-family: 'Droid Serif', 'serif';
+}
+.email-icon {
+  margin-left: 400px;
+}
+
+.email-info {
+  position: relative;
+  left: 48%;
+  color: white;
+  font-family: 'Droid Serif', 'serif';
+}
