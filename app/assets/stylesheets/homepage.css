@@ -213,3 +213,10 @@ hr {
   color: white;
   font-family: 'Droid Serif', 'serif';
 }
+
+.email-address {
+  position: relative;
+  left: 55%;
+  color: white;
+  font-family: 'Droid Serif', 'serif';
+}
