@@ -1,5 +1,7 @@
 * {
-        margin: 0;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 0;
         padding: 0;
         border: 0;
         outline: 0;
@@ -11,7 +13,6 @@
 .number-head {
   width: 100%;
   height: 4em;
-  margin: 0px;
   background-color: #5f5f5f;
 
 }
@@ -19,6 +20,7 @@
 #call-description {
   float: right;
   padding-right: 1em;
+  padding-top: 1em;
   color: white;
   font-size: 170%;
 }
@@ -45,13 +47,13 @@ width: 100%;
   font-size: 150%;
   position: absolute;
   top: 100px;
-  right: 20px;
+  right: -20px;
 }
 
 #menu-column {
-    padding-top: 30px;
+    padding-top: 40px;
     position: relative;
-    padding-right: 20px;
+    padding-right: 0;
     text-align: left;
     z-index: 10;
     margin-left: 20px;
@@ -75,6 +77,15 @@ a:visited {
 }
 
 /*Pictures Section*/
+.pic1 {
+  background-image:url('http://i.imgur.com/6rmjKO6.jpg');
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  padding: 0;
+  opacity: 0.4;
+}
+
 h1 {
   text-transform: uppercase;
   font-size: 45px;
@@ -95,14 +106,12 @@ h2 {
 
 .imgs {
   max-width: 100%;
-  float:left;
 }
-.pic1 {
-  width: 1350px;
-  height: 600px;
-  background-image:url('http://previews.123rf.com/images/luanateutzi/luanateutzi1406/luanateutzi140600077/29225771-Empty-rack-of-clothes-and-hangers-after-a-big-sale-Sale-sign-for-summer-clothes-on-a-clearance-rack--Stock-Photo.jpg');
-  margin: 0;
-  padding: 0;
+
+.imgContainer {
+  display: inline-block;
+  width: 150px;
+  margin-right: 471px;
 }
 
 hr {
@@ -116,7 +125,20 @@ hr {
 }
 
 .companyDescription {
-  float:left;
+  float: left;
+  margin-left: 45px;
+  margin-top: 10px;
+  width:593px;
+  word-wrap: break-word;
+  font-weight: normal;
+  font-family: 'Droid Serif', serif;
+  color: #686767;
+  font-size: 20px;
+}
+
+.companyDescription2 {
+  float: right;
+  margin-top: 10px;
   width:593px;
   word-wrap: break-word;
   font-weight: normal;
@@ -152,7 +174,8 @@ hr {
 .brand-list li {
   float:left;
   font-size: 150%;
-  margin-left: 130px;
+  margin-left: 80px;
+  margin-right: 45px;
   width: 40%;
   list-style-type: disc;
   color: #686767;
@@ -173,13 +196,13 @@ hr {
 }
 
 .location-icon {
-  margin-left: 200px;
+  margin-left: 100px;
 }
 
 .location-info {
   display: inline;
   float: left;
-  margin-left: 150px;
+  margin-left: 70px;
   color: white;
   font-family: 'Droid Serif', 'serif';
 }
@@ -203,7 +226,7 @@ hr {
 
 .email-info {
   position: relative;
-  left: 48%;
+  left: 50%;
   width:45%;
   color: white;
   font-family: 'Droid Serif', 'serif';
@@ -211,7 +234,7 @@ hr {
 
 .email-address {
   position: relative;
-  left: 55%;
+  left: 60%;
   width:45%;
   color: white;
   font-family: 'Droid Serif', 'serif';

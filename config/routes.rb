@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root :to=> 'homepage#index'
 
   get '/about' => 'homepage#about', :as => 'about'
+  get '/services' => 'homepage#services', :as => 'services'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
